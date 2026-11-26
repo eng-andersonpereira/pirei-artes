@@ -17,3 +17,7 @@ Novos perfis são adicionados aqui.
 | menteposittiva | 2,4 mi | frase de reflexão | frase única de reflexão; posts de imagem com 23–32 mil curtidas |
 
 Observação: alguns desses perfis colocam textos em inglês sobre celebridades na legenda (truque de alcance). NÃO copiar isso: pode ser punido pelo Instagram e não combina com o Pirei.
+
+## Instruções extras para a tarefa diária (pedidas pelo Anderson)
+- **Carrossel de curiosidade de vez em quando:** 2 a 3 vezes por semana (não em dias seguidos), troque UM dos 3 carrosséis do dia por um carrossel de curiosidade no estilo do @versos (ex.: "Na Índia existe uma ponte feita de raízes vivas..."). Use só fatos reais e verificáveis; na dúvida, escolha outro fato. Mesmo design (fundo branco, sem aspas), slide 8 com Curta/Compartilhe/Siga. Alterne qual nicho sai nesse dia.
+- **Fim de ano (até 31/12):** aproveite o tema que está bombando nas referências ("Dezembro abençoado", "Que 2027 seja...", balanço do ano, gratidão pelo que passou) em pelo menos uma frase ou carrossel a cada 2 dias, sem repetir o mesmo ângulo. Ajuste contagens ("faltam X dias") à data real de publicação.
