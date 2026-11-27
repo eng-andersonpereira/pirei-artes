@@ -15,6 +15,7 @@ Novos perfis são adicionados aqui.
 | encorajo | 1,0 mi | frase de reflexão/fé + legenda longa | imagem com frase + legenda-texto longa e emotiva; temas de fim de ano ("Que 2027 seja...", "Dezembro será um mês de honra" 206 comentários), gratidão (16,8 mil), sonhos, "nunca mais se abandone"; usa colaboradores |
 | versos | 1,5 mi | carrossel de curiosidade | carrosséis "Na Índia/Colômbia/Turquia existe..." sobre lugares incríveis do mundo; bandeira do país no início da legenda |
 | menteposittiva | 2,4 mi | frase de reflexão | frase única de reflexão; posts de imagem com 23–32 mil curtidas |
+| mente_digna_ | 1,0 mi | frase única de motivação/caráter | só posts de imagem com frase (valores, caráter, mente forte); 3 mil a 43 mil curtidas por post; também usa o truque de legenda em inglês sobre celebridades (NÃO copiar) |
 
 Observação: alguns desses perfis colocam textos em inglês sobre celebridades na legenda (truque de alcance). NÃO copiar isso: pode ser punido pelo Instagram e não combina com o Pirei.
 
