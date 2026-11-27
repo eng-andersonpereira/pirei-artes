@@ -32,8 +32,12 @@ def overlay(texto, arquivo, W=1080, H=1920, tam=110):
 
 def gerar(video, texto, saida):
     overlay(texto, "/tmp/_ov.png")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", video, "-loop", "1", "-i", "/tmp/_ov.png",
-        "-filter_complex", "[1:v]format=rgba,fade=in:st=0.3:d=0.5:alpha=1[o];[0:v][o]overlay=0:0:shortest=1,format=yuv420p",
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video],
+                               capture_output=True, text=True).stdout.strip() or 8)
+    loop = ["-stream_loop", "1"] if dur < 7 else []   # vídeo curto: repete 1x pra dar tempo de ler
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *loop, "-i", video, "-loop", "1", "-i", "/tmp/_ov.png",
+        "-filter_complex", "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1[b];"
+        "[1:v]format=rgba,fade=in:st=0.3:d=0.5:alpha=1[o];[b][o]overlay=0:0:shortest=1,format=yuv420p",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "copy", "-movflags", "+faststart", saida], check=True)
 
 if __name__ == "__main__":
