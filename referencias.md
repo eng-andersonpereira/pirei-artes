@@ -16,6 +16,7 @@ Novos perfis são adicionados aqui.
 | versos | 1,5 mi | carrossel de curiosidade | carrosséis "Na Índia/Colômbia/Turquia existe..." sobre lugares incríveis do mundo; bandeira do país no início da legenda |
 | menteposittiva | 2,4 mi | frase de reflexão | frase única de reflexão; posts de imagem com 23–32 mil curtidas |
 | mente_digna_ | 1,0 mi | frase única de motivação/caráter | só posts de imagem com frase (valores, caráter, mente forte); 3 mil a 43 mil curtidas por post; também usa o truque de legenda em inglês sobre celebridades (NÃO copiar) |
+| amandafariamatos | 213 mil | frase sobre foto aconchegante (formato que o Anderson gostou) | foto estética (café, livros, vela, casa, viagem) com frase por cima; "BOM DIA!" + café às 7h deram 22–29 mil curtidas; fé leve ("Entrego, confio e deixo Deus conduzir"), paz, 2027; legenda curtíssima com emoji ("BOM DIA! 🤍", "Sexta-feira 🤍") |
 
 Observação: alguns desses perfis colocam textos em inglês sobre celebridades na legenda (truque de alcance). NÃO copiar isso: pode ser punido pelo Instagram e não combina com o Pirei.
 
@@ -35,3 +36,8 @@ Diagnóstico: o perfil tem 20,9 mil seguidores, mas cada post alcançou só 3 a 
 - Frases de impacto curtas (2 a 4 linhas), originais, combinando com o clima do vídeo (mulher forte, elegância, autoestima, superação). Legenda curtinha ("marca aquela amiga que é assim ✨") + Manda/Segue + hashtags.
 - Publicar como Reel de teste (create_video_post com trial_params SS_PERFORMANCE), link jsDelivr. Quando houver vídeos disponíveis, faça 1 Reel lifestyle por dia, agendado às 09:00 junto com os outros após o "posta" (a frase-imagem passa para as 10:30).
 - Pasta dos vídeos: Google Drive "Pirei vídeos" (id 16V_oe5d3a8GO1jqntDpg59EYKDOEzVDA), busque com `'16V_oe5d3a8GO1jqntDpg59EYKDOEzVDA' in ancestors and mimeType contains 'video/'`. Prefira arquivos de até ~10 MB. Antes de usar, confira `videos-usados.md` e, depois de usar, acrescente o nome do vídeo nele (mesmo commit). O `frase_video.py` já ajusta qualquer vídeo para 1080x1920 e repete vídeos com menos de 7 s. Quebre a frase em linhas curtas (até ~18 caracteres por linha).
+
+## Frase sobre foto (estilo amandafariamatos) — pedido do Anderson em 27/11
+- A frase do dia passa a ALTERNAR entre: (a) fundo branco com aspas laranja (frase.py) e (b) frase sobre FOTO estética.
+- Para (b): tire um quadro de um vídeo da pasta "Pirei vídeos" (ffmpeg -ss 2 -frames:v 1, recorte 1080x1350), escureça ~20% e escreva a frase centralizada em branco com sombra suave (Poppins: título Bold ~92, linhas Regular/Medium ~58). Pode reutilizar vídeos já usados em Reels (é só um quadro). Proporção sempre 4:5 (1080x1350): a API não aceita 3:4.
+- Nos dias de (b), prefira o tema "BOM DIA!" + intenção do dia (paz, foco, gratidão, fé leve) e publique às 07:30 em vez de 10:30. Legenda curtíssima com emoji ("BOM DIA! 🤍") + "manda pra quem você deseja um bom dia" + hashtags (#bomdia #café #fé #gratidao).
